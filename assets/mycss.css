@@ -100,14 +100,17 @@ transition: 1s;
 i.visible{
 rotate: 360deg;
 transition: 1s;
-width: 200px;
-height: 200px;
-padding-top: 20px;
+
     background-color:#0C7B93;
     border-radius: 50%;
     transition-delay: 0.5s
 }
-
+i.visible{
+    width: 200px;
+height: 200px;
+padding-top: 20px;
+    }
+    
 #serv2 .col-lg-6:hover  .caption{
 background-color: #0C7B93;
 
