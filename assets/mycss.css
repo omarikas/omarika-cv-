@@ -1,0 +1,132 @@
+
+body{
+    margin: 0;
+    padding: 0;
+background-color: #142850;
+}
+
+.container-fluid{
+    padding:0;
+    margin: 0;
+    top: 0;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  
+
+}
+
+nav{
+
+   text-transform: none;
+   line-height: 50px;
+   margin-top: 0.1em;
+   background: linear-gradient(to left, rgb(0, 168, 204) 50%,#0C7B93  50%) right;
+   background-size: 200%;
+   transition: .5s ease-out
+}
+nav:hover{
+background-position: left;
+
+}
+@keyframes example {
+    from {background-color: grey;}
+    to {background-color: red;}
+  }
+
+#navbarSupportedContent ul{
+list-style: none;
+
+animation:none;
+margin-top: 1%;
+transform: none;
+text-align: left;
+text-justify:auto;
+
+}
+
+#navbarSupportedContent a{
+    list-style: none;
+color: black;
+    margin-right: 10px;
+text-decoration: none;
+    animation:none;
+    transform: none;
+   cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+
+
+img{
+    width: 50%;
+    
+    z-index: -1;
+    float:left;
+    overflow-x: clip;
+}
+#img{
+    
+    background-size: 200%;
+    transition: .5s ease-out;
+    overflow-x: clip;
+
+  margin-top: 50px;
+  width: 200%;
+  height: 100px;
+
+}
+#img #job{
+    background-size: 200%;
+    transition: .5s ease-out;
+    overflow-x: clip;
+   margin-top: 50px;
+    float:left;
+
+}
+
+#img:hover #job{
+   font-size: xx-large;
+margin-left: 5%;
+transition: 1s;
+    
+}
+#img:not(:hover) #job{
+    margin-left: -7%;
+    transition: 1s;
+        
+    }
+.row div:hover i{
+rotate: 360deg;
+transition: 1s;
+width: 200px;
+height: 200px;
+padding-top: 20px;
+    background-color:#0C7B93;
+    border-radius: 50%;
+}
+
+#serv2 .col-lg-6:hover  .caption{
+background-color: #0C7B93;
+
+border-radius: 20%;
+transition: 1s;
+}
+p{
+    color:white
+}
+h1{
+    color:white
+}
+h2{
+    color:white
+}
+i{
+    color: white;
+}
